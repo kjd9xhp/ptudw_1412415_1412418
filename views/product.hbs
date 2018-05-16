@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chi tiết sản phẩm</title>
+	<link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/Product.css">
+</head>
+<body>
+	<div class="web-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="http://localhost:3000/"><img src="images/Book-online.jpe" alt=""></a>		
+				</div>
+				<div class="col-md-7">
+					<div class="col-md-3">
+						<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+						<div class="info">
+							<p>Hotline</p>
+							<p>1900-0000</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+						<div class="info">
+							<p>Miễn phí giao hàng</p>
+							<div class="slogan">
+								Tận nơi -Toàn quốc
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+						<div class="info1">
+							<p>60 000 tựa sách</p>
+							<div class="slogan">
+								Cập nhật hàng ngày
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="login">
+						<a href="http://localhost:3000/login">Đăng nhập</a>
+						-
+						<a href="http://localhost:3000/register">Đăng kí</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="web-body">
+			<div class="categories">
+				<div class="row">
+					<div class="col-md-3">		
+						<div class="categories-tittle">
+							<div class="dropdown">
+								<div class="btn-group">
+									<button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Danh mục sách <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+
+										<li class="menu-group-lv1">
+											<a href="" class="sach1">Sách bán chạy</a>
+										</li>
+										<li class="menu-group-lv2">
+											<a href="" class="sach1">Sách mới phát hành</a>
+										</li>
+										<li class="menu-group-lv2">
+											<a href="" class="sach1">Sách xem nhiều nhiều</a>
+										</li>
+										<li class="menu-group-lv3">
+											<a href="" class="sach1">Sách theo danh mục</a>
+											<ul class="sub-menu">
+												<li class="tree-menu">
+													<div class="title-menu1"><a href="" class="list-1">Thể Loại</a></div>
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách kinh tế</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách thiếu nhi</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách văn học</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách chuyên ngành</a></div>			
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách ngoại ngữ</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Truyện</a></div>
+													</li>
+													<li class="tree-menu">
+														<div class="title-menu1"><a href="" class="list-1">Nhà Xuất Bản</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Kim Đồng</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">NXB Trẻ</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Alpha Book</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Phương Nam</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Fahasha</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Văn Lang</a></div>	
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>	
+							</div>				
+						</div>
+						<div class="col-md-6">
+							<div class="top-search">
+								<form action="" name="search_form" id="search-form-header" method="get" class="cm-processed-form">
+									<input type="text" name="q" value="" id="search_input" title="" class="search-input header-search-input"><button title="Tìm sách" class="search-magnifier btn" type="submit">Tìm sách</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="shopping-cart">
+								<a href="" class="cart">
+									<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+									Giỏ hàng
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="web-body-2">
+				<div class="container">
+					<div class="link">
+						<ol class="breadcrumb">
+							<li><a href="http://localhost:3000/">Trang Chủ</a></li>
+							<li><a href="http://localhost:3000/list">Sách kinh tế</a></li>
+							<li class="active">Để con được ốm</li>
+						</ol>
+					</div>
+					<div class="detail-product">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="images/bia_de_con_duoc_om.jpg" alt="" class="image-detail">	
+							</div>
+							<div class="col-md-5">
+								<h2 class="title-book">Để con được ốm</h2>
+								<div class="detail-book">
+									<div class="content-book">
+										<p class="content-book-1">Tác giả: Uyên Bùi - BS. Trí Đoàn </p> 
+										<p class="content-book-1">Nhà xuất bản: Nxb Kim Đồng</p>
+										<p class="content-book-1">Loại: Sách thiếu nhi</p>
+										<p class="content-book-1">Ngày xuất bản: 03/2016</p>
+										<p class="content-book-1">Xuất xứ: Việt Nam</p>
+										<p class="content-book-1">Mô tả: Để con được ốm có thể coi là một cuốn nhật ký học làm mẹ thông qua những câu chuyện từ trải nghiệm thực tế ... <span>
+											<a href="#more-intro">
+											<span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+											 Xem thêm nhiều hơn</a>
+										</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="pay-box">
+									<h3 class="title-book-2">Thông tin thanh toán</h3>
+									<div class="content-pay">
+										<p class="content-pay-1">
+											<span>Lượt xem:</span>
+											<span style="color: #008340 ;font-size: 18px ; padding-left: 80px">5.000</span>
+										</p>
+										<p class="content-book-1">
+											<span>Lượt bán:</span>
+											<span style="color: #008340 ;font-size: 18px ; padding-left: 83px">1.000</span>
+										</p>
+										<p class="content-book-1">
+											<span>Giá cũ:</span>
+											<span style="color: #008340 ;font-size: 18px ; padding-left: 104px">53.000 ₫</span>
+										</p>
+										<p class="content-book-1">
+											<span>Giá bán:</span>
+											<span style="color: #008340 ;font-size: 18px ; padding-left: 95px">53.000 ₫</span>
+										</p>
+									</div> 
+									<button type="button" class="btn btn-default">
+										<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+										Mua ngay
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="web-body-4">
+			<div class="container">
+				<div class="body-title-1">
+					<a name="more-intro"></a>
+					Giới thiệu sách
+				</div>
+				<div class="introduce-book">
+					<p><span style="color: red ; font-size: 16px">Để Con Được Ốm</span></p>
+					<p><span style="font-weight: bold;">Để con được ốm </span> có thể coi là một cuốn nhật ký học làm mẹ thông qua những câu chuyện từ trải nghiệm thực tế mà chị <span style="font-weight: bold;">Uyên Bùi</span> đã trải qua từ khi mang thai đến khi em bé chào đời và trở thành một cô bé khỏe mạnh, vui vẻ. Cùng với những câu chuyện nhỏ thú vị của người mẹ là lời khuyên mang tính chuyên môn, giải đáp cụ thể từ bác sỹ <span style="font-weight: bold;">Nguyễn Trí Đoàn</span>, giúp hóa giải những hiểu lầm từ kinh nghiệm dân gian được truyền lại, cũng như lý giải một cách khoa học những thông tin chưa đúng đắn đang được lưu truyền hiện nay, mang đến góc nhìn đúng đắn nhất cho mỗi hiện tượng, sự việc với những kiến thức y khoa hiện đại được cập nhật liên tục. Cuốn sách sẽ giúp các bậc phụ huynh trang bị một số kiến thức cơ bản trong việc chăm sóc trẻ một cách khoa học và góp phần giúp các mẹ và những-người-sẽ-là-mẹ trở nên tự tin hơn trong việc chăm con, xua tan đi những lo lắng, để mỗi em bé ra đời đều được hưởng sự chăm sóc tốt nhất.</p>
+					<p>Trên thị trường có nhiều đầu sách về chăm sóc trẻ, tuy nhiên đa phần đều là nội dung được dịch từ các sách nước ngoài nên phần nào đó không phù hợp với các gia đình Việt bởi sự khác biệt về suy nghĩ và ý thức hệ cùng những quan niệm sống. Đặc biệt là các cuốn sách ấy không bao giờ nhắc tới cách xử lý các vấn đề đời thường, những kinh nghiệm dân gian hay phương pháp chăm sóc trẻ từ “kinh nghiệm cá nhân” của các mẹ tràn lan trên các diễn đàn và mạng xã hội - những điều đang tồn tại trong xã hội Việt ta hiện nay. Do đó, Để con được ốm trở thành một tác phẩm độc đáo khi đi sâu vào vấn đề chăm sóc con trẻ cùng những điều bất cập trong xã hội Việt, trong những gia đình Việt, giữa các thành viên trong gia đình. Để con được ốm không phải là cuốn “bách khoa toàn thư” chữa bách bệnh ở trẻ em, nó đơn giản là lời sẻ chia và động viên gửi đến các bà mẹ trẻ nói riêng và các gia đình nói chung.</p>
+					<p>Hi vọng, cuốn sách sẽ khiến các bậc phụ huynh cảm thấy như một luồng gió mát giúp “cởi phăng”, “cuốn bay” những suy nghĩ, những định kiến không đúng như những lớp áo giáp vững chắc về hiều biết, về cách chăm sóc trẻ khi bệnh cũng như khi khỏe.</p>
+				</div>
+				<div class="body-title-1">
+					Sách cùng loại
+				</div>
+				<div class="product-list-1">
+					<div class="row">
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>						
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>														
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href=""><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>									
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="more-link">
+						<a href="http://localhost:3000/list">
+							<span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+							Xem thêm nhiều hơn
+						</a>
+					</div>
+				</div>
+				<div class="body-title-1">
+					Sách cùng nhà xuất bản
+				</div>
+				<div class="product-list-1">
+					<div class="row">
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>						
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>														
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href=""><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>	
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail">
+								<div class="product-image">
+									<a href="http://localhost:3000/product"><img src="images/bia_de_con_duoc_om.jpg" alt=""></a>
+								</div>									
+								<div class="caption">
+									<div class="book-name">
+										<a href="http://localhost:3000/product">Để con được ốm</a>
+									</div>
+									<div class="nxb">
+										Kim Đồng
+									</div>
+									<div class="price-product">
+										53.000 ₫
+									</div>
+									<div class="price-regular">
+										69.000 ₫
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="more-link">
+						<a href="http://localhost:3000/list">
+							<span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+							Xem thêm nhiều hơn
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="web-footer-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="col-md-8">
+								<div class="image-logo-footer"><img src="images/Book-online.jpe" alt=""></div>		
+								<div class="title-footer">
+									<span style="color: white">BookOnline</span> là trang website chuyên bán tất cả các loại sách hành đầu Việt Nam
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="title-footer-1">
+								Về chúng tôi
+							</div>
+							<div class="menu-footer">
+								<ul class="list-group-1">
+									<li class="list-group-item-2"><a href="" class="list-group-item-1">Trang chủ</a></li>
+									<li class="list-group-item-2"><a href="" class="list-group-item-1">Giới thiệu</a></li>
+									<li class="list-group-item-2"><a href="" class="list-group-item-1">Tin tức</a></li>
+									<li class="list-group-item-2"><a href="" class="list-group-item-1">Hướng dẫn</a></li>
+									<li class="list-group-item-2"><a href="" class="list-group-item-1">Chính sách & điều khoản</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="folow">
+								<div class="title-footer-2">
+									Liên hệ với chúng tôi
+								</div>
+								<div class="image-folow">
+									<a href=""><img src="images/facebook.png" alt=""></a>
+									<a href=""><img src="images/twitter.png" alt=""></a>
+									<a href=""><img src="images/youtube.png" alt=""></a>
+									<a href=""><img src="images/google.png" alt=""></a>
+									<a href=""><img src="images/tumblr.png" alt=""></a>
+								</div>
+								<div class="app-folow">
+									<a href=""><img src="images/android.png" alt=""></a>
+									<a href=""><img src="images/appstore.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="web-footer-2">
+				<div class="container">
+					<div class="copyright-text">
+						Nhóm 40 - Phát triển ứng dụng web
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

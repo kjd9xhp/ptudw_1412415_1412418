@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng nhập</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+	<link rel="stylesheet" href="css/List.css">
+	<link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+	<div class="web-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="http://localhost:3000/"><img src="images/Book-online.jpe" alt=""></a>		
+				</div>
+				<div class="col-md-7">
+					<div class="col-md-3">
+						<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+						<div class="info">
+							<p>Hotline</p>
+							<p>1900-0000</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+						<div class="info">
+							<p>Miễn phí giao hàng</p>
+							<div class="slogan">
+								Tận nơi -Toàn quốc
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+						<div class="info1">
+							<p>60 000 tựa sách</p>
+							<div class="slogan">
+								Cập nhật hàng ngày
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="login">
+						<a href="http://localhost:3000/login">Đăng nhập</a>
+						-
+						<a href="http://localhost:3000/register">Đăng kí</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="web-body">
+			<div class="categories">
+				<div class="row">
+					<div class="col-md-3">		
+						<div class="categories-tittle">
+							<div class="dropdown">
+								<div class="btn-group">
+									<button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Danh mục sách <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+
+										<li class="menu-group-lv1">
+											<a href="" class="sach1">Sách bán chạy</a>
+										</li>
+										<li class="menu-group-lv2">
+											<a href="" class="sach1">Sách mới phát hành</a>
+										</li>
+										<li class="menu-group-lv2">
+											<a href="" class="sach1">Sách xem nhiều nhiều</a>
+										</li>
+										<li class="menu-group-lv3">
+											<a href="" class="sach1">Sách theo danh mục</a>
+											<ul class="sub-menu">
+												<li class="tree-menu">
+													<div class="title-menu1"><a href="" class="list-1">Thể Loại</a></div>
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách kinh tế</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách thiếu nhi</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách văn học</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách chuyên ngành</a></div>			
+														<div class="title-menu2"><a href="http://localhost:3000/list">Sách ngoại ngữ</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Truyện</a></div>
+													</li>
+													<li class="tree-menu">
+														<div class="title-menu1"><a href="" class="list-1">Nhà Xuất Bản</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Kim Đồng</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">NXB Trẻ</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Alpha Book</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Phương Nam</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Fahasha</a></div>	
+														<div class="title-menu2"><a href="http://localhost:3000/list">Văn Lang</a></div>	
+													</li>
+												</ul
+											</li>
+										</ul>
+									</div>
+								</div>	
+							</div>			
+						</div>
+						<div class="col-md-6">
+							<div class="top-search">
+								<form action="" name="search_form" id="search-form-header" method="get" class="cm-processed-form">
+									<input type="text" name="q" value="" id="search_input" title="" class="search-input header-search-input"><button title="Tìm sách" class="search-magnifier btn" type="submit">Tìm sách</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="shopping-cart">
+								<a href="" class="cart">
+									<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+									Giỏ hàng
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="login-1">
+				<span style="font-size: 32px; color: #008340; font-weight: bold;"><p>Đăng Nhập</p></span>
+				<p>
+					<span>Chưa có tài khoản?</span>
+					<a href="http://localhost:3000/register" class="sub-login">Đăng ký ngay</a>
+				</p>
+				<div class="login-box">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="examplelogin">Tài khoản</label>
+							<input type="login" class="form-control" id="exampleInputlogin" placeholder="Tài khoản">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputpassword">Mật khẩu</label>
+							<input type="password" class="form-control" id="exampleInputpassword" placeholder="Mật khẩu">
+						</div>
+						<div class="forgot-password">
+							<a href="" class="sub-login">Quên mật khẩu?</a>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Nhớ tài khoản
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-default signin">Đăng nhập</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="web-body-2">			
+		</div>
+	</div>
+</div>
+<div class="web-footer-1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="col-md-8">
+					<div class="image-logo-footer"><img src="images/Book-online.jpe" alt=""></div>		
+					<div class="title-footer">
+						<span style="color: white">BookOnline</span> là trang website chuyên bán tất cả các loại sách hành đầu Việt Nam
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="title-footer-1">
+					Về chúng tôi
+				</div>
+				<div class="menu-footer">
+					<ul class="list-group-1">
+						<li class="list-group-item-2"><a href="" class="list-group-item-1">Trang chủ</a></li>
+						<li class="list-group-item-2"><a href="" class="list-group-item-1">Giới thiệu</a></li>
+						<li class="list-group-item-2"><a href="" class="list-group-item-1">Tin tức</a></li>
+						<li class="list-group-item-2"><a href="" class="list-group-item-1">Hướng dẫn</a></li>
+						<li class="list-group-item-2"><a href="" class="list-group-item-1">Chính sách & điều khoản</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="folow">
+					<div class="title-footer-2">
+						Liên hệ với chúng tôi
+					</div>
+					<div class="image-folow">
+						<a href=""><img src="images/facebook.png" alt=""></a>
+						<a href=""><img src="images/twitter.png" alt=""></a>
+						<a href=""><img src="images/youtube.png" alt=""></a>
+						<a href=""><img src="images/google.png" alt=""></a>
+						<a href=""><img src="images/tumblr.png" alt=""></a>
+					</div>
+					<div class="app-folow">
+						<a href=""><img src="images/android.png" alt=""></a>
+						<a href=""><img src="images/appstore.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="web-footer-2">
+	<div class="container">
+		<div class="copyright-text">
+			Nhóm 40 - Phát triển ứng dụng web
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
